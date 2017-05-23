@@ -2,11 +2,31 @@ body {
 	background-color: lightblue;
 }
 
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav li {
+	float: left;
+	width: 33.33%;
+	text-align: center;
+}
+nav a {
+	color: orange;
+	text-decoration: none;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
 h1 {
 	text-align: center;
 	font-family: Impact, sans-serif;
 	font-size: 60px;
 	color: orange;
+	
 }
 
 p, li {
@@ -14,5 +34,6 @@ p, li {
 	font-size: 18px;
     line-height: 24px;
 }
+
 
 
